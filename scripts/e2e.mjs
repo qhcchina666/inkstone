@@ -87,7 +87,7 @@ const owner = makeClient()
 console.log('[setup]')
 {
   const s = await owner.req('GET', '/api/auth/session')
-  check('site name is Inkstone', s.data?.site?.name === 'Inkstone', JSON.stringify(s.data?.site))
+  check('site name is QHC Note', s.data?.site?.name === 'QHC Note', JSON.stringify(s.data?.site))
   check('fresh instance (not initialized)', s.data?.site?.initialized === false)
 
   const health = await fetch(BASE + '/api/health')
@@ -122,9 +122,9 @@ console.log('[register owner]')
   const notes = await owner.req('GET', '/api/notes?view=all')
   const list = notes.data?.notes ?? notes.data?.items ?? []
   check('workspace starts with exactly two bilingual notes', Array.isArray(list) && list.length === 2, `status=${notes.status} n=${list.length}`)
-  const englishWelcome = list.find((note) => /^Welcome to Inkstone/u.test(note.title ?? ''))
+  const englishWelcome = list.find((note) => /^Welcome to QHC Note/u.test(note.title ?? ''))
   const chineseWelcome = list.find(
-    (note) => note.id !== englishWelcome?.id && /Inkstone/u.test(note.title ?? ''),
+    (note) => note.id !== englishWelcome?.id && /QHC Note/u.test(note.title ?? ''),
   )
   check(
     'workspace includes Chinese and English welcome notes',
@@ -1104,9 +1104,9 @@ console.log('[registration toggle]')
   check('second user registers while open (member)', reg2.status === 201 && reg2.data?.user?.role === 'member')
   const memberNotes = await member.req('GET', '/api/notes?view=all')
   const memberList = memberNotes.data?.notes ?? memberNotes.data?.items ?? []
-  const memberEnglishWelcome = memberList.find((note) => /^Welcome to Inkstone/u.test(note.title ?? ''))
+  const memberEnglishWelcome = memberList.find((note) => /^Welcome to QHC Note/u.test(note.title ?? ''))
   const memberChineseWelcome = memberList.find(
-    (note) => note.id !== memberEnglishWelcome?.id && /Inkstone/u.test(note.title ?? ''),
+    (note) => note.id !== memberEnglishWelcome?.id && /QHC Note/u.test(note.title ?? ''),
   )
   check(
     'English registration gets both welcome notes',

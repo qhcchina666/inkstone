@@ -87,8 +87,8 @@ export function createInkstoneMcpServer(options: InkstoneMcpServerOptions): McpS
   server.registerTool(
     'search',
     {
-      title: 'Search Inkstone',
-      description: 'Search private Inkstone notes by keyword and meaning. Returns citation-ready note ids, titles, and absolute URLs. Use before fetch.',
+      title: 'Search QHC Note',
+      description: 'Search private QHC Note notes by keyword and meaning. Returns citation-ready note ids, titles, and absolute URLs. Use before fetch.',
       inputSchema: z.object({
         query: z.string().trim().min(1).max(512),
         mode: z.enum(['auto', 'lexical', 'semantic', 'hybrid']).default('auto')
@@ -119,7 +119,7 @@ export function createInkstoneMcpServer(options: InkstoneMcpServerOptions): McpS
   server.registerTool(
     'fetch',
     {
-      title: 'Fetch Inkstone note',
+      title: 'Fetch QHC Note note',
       description: 'Fetch one private note by id returned from search. Long notes are bounded and include a cursor for read_note.',
       inputSchema: z.object({ id: z.string().min(1).max(256) }),
       outputSchema: z.object({

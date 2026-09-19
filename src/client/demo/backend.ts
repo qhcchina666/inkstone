@@ -843,7 +843,7 @@ export function createDemoBackend(): DemoBackend {
       updatedAt: note.updatedAt,
       createdAt: note.createdAt,
       author: { name: state.user.name, avatarUrl: state.user.avatarUrl },
-      site: { name: 'Inkstone Demo' },
+      site: { name: 'QHC Note Demo' },
       share: { slug: share.info.slug },
     }
     return c.json(response)
@@ -1001,7 +1001,7 @@ export function createDemoBackend(): DemoBackend {
             maxTotalBytes: LIMITS.importArchiveExpandedMaxBytes,
           })
           const bundleEntry = entries.find((entry) => entry.path.endsWith('inkstone-export.json'))
-          if (!bundleEntry) throw new Error('The ZIP does not contain an Inkstone export')
+          if (!bundleEntry) throw new Error('The ZIP does not contain an QHC Note export')
           await importBundle(
             state,
             JSON.parse(new TextDecoder().decode(bundleEntry.data)),

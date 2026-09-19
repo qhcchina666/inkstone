@@ -5,7 +5,7 @@ export const ZH_CN_MESSAGES = {
     "mobile.menu": "菜单",
     "mobile.back_to_account": "返回我的",
     "app.boot_label": "正在准备笔记本…",
-    "app.document_title": "Inkstone",
+    "app.document_title": "QHC Note",
     "app.meta_description": "运行在 Cloudflare 上的私有、自托管 Markdown 笔记本。",
     "api.error.bad_request": "请求内容有误",
     "api.error.conflict": "内容已在别处修改，请刷新后重试",
@@ -215,7 +215,7 @@ export const ZH_CN_MESSAGES = {
     "common.password": "密码",
     "common.permanently_deleted_value0_notes": "已彻底删除 {value0} 篇笔记",
     "common.preview": "预览",
-    "common.product_name": "Inkstone",
+    "common.product_name": "QHC Note",
     "common.quote": "引用",
     "common.remove_from_favorites": "取消收藏",
     "common.restore": "恢复",
@@ -445,13 +445,13 @@ export const ZH_CN_MESSAGES = {
     "preview.untitled": "（无标题）",
     "pwa.app_installation": "安装应用",
     "pwa.install": "安装",
-    "pwa.install_description": "在独立窗口中打开 Inkstone，并让应用外壳保持离线可用。",
-    "pwa.install_inkstone": "安装 Inkstone",
+    "pwa.install_description": "在独立窗口中打开 QHC Note，并让应用外壳保持离线可用。",
+    "pwa.install_inkstone": "安装 QHC Note",
     "pwa.installed": "已安装",
     "pwa.offline_ready": "完整离线资源已准备好",
-    "pwa.offline_ready_description": "Inkstone 的所有功能现在都能在这台设备上断网打开。",
+    "pwa.offline_ready_description": "QHC Note 的所有功能现在都能在这台设备上断网打开。",
     "pwa.complete_offline_access": "完整离线能力",
-    "pwa.complete_offline_preparing_description": "Inkstone 会保持流畅，并在后台安静地补齐其余功能。",
+    "pwa.complete_offline_preparing_description": "QHC Note 会保持流畅，并在后台安静地补齐其余功能。",
     "pwa.complete_offline_ready": "全部功能已就绪",
     "pwa.complete_offline_ready_description": "从未打开过的功能现在也可以离线使用。",
     "pwa.complete_offline_retry_description": "已下载的资源会保留，网络恢复后将自动继续。",
@@ -478,9 +478,9 @@ export const ZH_CN_MESSAGES = {
     "settings.remind_me_next_time": "下次再说",
     "settings.up_to_date": "当前已经是最新版本。",
     "settings.update_check_unavailable": "暂时无法获取",
-    "settings.update_dialog_description": "发现 Inkstone {version}。打开官方仓库并手动同步你的 Fork。",
+    "settings.update_dialog_description": "发现 QHC Note {version}。打开官方仓库并手动同步你的 Fork。",
     "settings.update_dialog_title": "发现新版本",
-    "settings.update_manual_fork_hint": "Inkstone 不会自动修改或部署你的 Fork。请在官方仓库确认变更后手动同步。",
+    "settings.update_manual_fork_hint": "QHC Note 不会自动修改或部署你的 Fork。请在官方仓库确认变更后手动同步。",
     "settings.accent_color": "强调色",
     "settings.background_color": "背景色",
     "settings.background_paper": "暖纸",
@@ -524,7 +524,7 @@ export const ZH_CN_MESSAGES = {
     "settings.backup_failed": "备份失败",
     "settings.backup_file_checksum_failed": "备份文件校验失败：{value0}",
     "settings.backup_file_size_mismatch": "备份文件大小不匹配：{value0}",
-    "settings.backup_manifest_not_found": "没有找到 Inkstone Markdown 备份清单，请选择解压后的完整备份目录（应包含 manifest.json、COMPLETE、notes 等）",
+    "settings.backup_manifest_not_found": "没有找到 QHC Note Markdown 备份清单，请选择解压后的完整备份目录（应包含 manifest.json、COMPLETE、notes 等）",
     "settings.backup_manifest_invalid": "已完成快照的清单无效或版本不受支持：{value0}",
     "settings.backup_missing_file": "完整备份缺少文件：{value0}",
     "settings.backup_no_complete_snapshot": "这个目录里没有带有效 COMPLETE 标记的完整快照",
@@ -618,9 +618,9 @@ export const ZH_CN_MESSAGES = {
     "settings.import_failed": "导入失败",
     "settings.operation_completed_but_refresh_failed": "操作已完成，但页面刷新失败，请稍后重试",
     "settings.import_file": "导入文件",
-    "settings.includes_every_note_folder_tag_and_attachment_for_a_complete_restore_plu": "下载与自动备份相同的完整 ZIP；超大备份可解压后选择目录，Inkstone 会分批校验并恢复",
+    "settings.includes_every_note_folder_tag_and_attachment_for_a_complete_restore_plu": "下载与自动备份相同的完整 ZIP；超大备份可解压后选择目录，QHC Note 会分批校验并恢复",
     "settings.indent_width": "缩进宽度",
-    "settings.inkstone_import_reminder": "[Inkstone] 导入提醒:",
+    "settings.inkstone_import_reminder": "[QHC Note] 导入提醒:",
     "settings.interface_density": "界面密度",
     "settings.interface_language": "界面语言",
     "settings.joined": "加入于",
@@ -682,7 +682,7 @@ export const ZH_CN_MESSAGES = {
     "settings.mcp_copied": "已复制",
     "settings.mcp_copy": "复制",
     "settings.mcp_disabled": "已停用",
-    "settings.mcp_demo_desc": "这里按已配置的 Inkstone 服务器完整展示全部 MCP 选项。端点、凭据、客户端和索引统计均为示例；Demo 中所有 MCP 操作都已禁用。",
+    "settings.mcp_demo_desc": "这里按已配置的 QHC Note 服务器完整展示全部 MCP 选项。端点、凭据、客户端和索引统计均为示例；Demo 中所有 MCP 操作都已禁用。",
     "settings.mcp_demo_title": "仅展示的 MCP 预览",
     "settings.mcp_enable": "启用 MCP",
     "settings.mcp_enable_desc": "控制所有账号的远程 MCP 服务；停用期间，已有授权也无法继续访问。",
@@ -771,8 +771,8 @@ export const ZH_CN_MESSAGES = {
     "settings.registration_open": "已开放注册",
     "settings.registration_status": "注册状态",
     "settings.region": "区域",
-    "settings.restore_backup_folder": "恢复 Inkstone 备份文件夹",
-    "settings.restore_backup_folder_description": "选择新 ZIP 解压后的目录，或旧版同时包含 attachments 和 snapshots 的备份根目录；Inkstone 会验证 COMPLETE 并分批恢复",
+    "settings.restore_backup_folder": "恢复 QHC Note 备份文件夹",
+    "settings.restore_backup_folder_description": "选择新 ZIP 解压后的目录，或旧版同时包含 attachments 和 snapshots 的备份根目录；QHC Note 会验证 COMPLETE 并分批恢复",
     "settings.reloaded_all_data": "已同步最新内容",
     "settings.render_and_using_katex": "显示行内公式和块级公式",
     "settings.render_mermaid_code_blocks_into_flowcharts": "将 Mermaid 代码块显示为图表",
@@ -806,7 +806,7 @@ export const ZH_CN_MESSAGES = {
     "settings.store_backups_in_this_directory_or_leave_blank_to_use_the_root_directory": "备份会放在这个目录下，留空则放在根目录",
     "settings.structured_note_data_without_attachment_binaries_download_zip_for_a_comp": "笔记结构的纯数据，不含附件二进制；完整备份请下载 ZIP",
     "settings.subdirectory": "子目录",
-    "settings.supports_md_txt_zip_and_inkstone_json_exports_for_matching_ids_the_newer": "支持 .md / .txt / .zip / Inkstone 导出的 .json。同 ID 的笔记会保留较新的一份",
+    "settings.supports_md_txt_zip_and_inkstone_json_exports_for_matching_ids_the_newer": "支持 .md / .txt / .zip / QHC Note 导出的 .json。同 ID 的笔记会保留较新的一份",
     "settings.sync": "同步",
     "settings.sync_now": "立即同步",
     "settings.system": "跟随系统",
@@ -847,7 +847,7 @@ export const ZH_CN_MESSAGES = {
     "settings.totp_recovery_codes_copied": "恢复码已复制",
     "settings.totp_recovery_codes_once": "每枚恢复码只能使用一次。请存放在私密且可靠的位置；之后不会再次显示。",
     "settings.totp_recovery_codes_replaced": "恢复码已更换",
-    "settings.totp_recovery_file_title": "Inkstone 二次验证恢复码",
+    "settings.totp_recovery_file_title": "QHC Note 二次验证恢复码",
     "settings.totp_recovery_file_warning": "请妥善保密。每枚恢复码只能使用一次，可用于登录或关闭二次验证。",
     "settings.totp_regenerate_description": "更换后，之前的所有恢复码会立即失效。请使用当前密码和验证器验证码确认。",
     "settings.totp_save_recovery_codes": "现在保存这些恢复码",
@@ -1078,13 +1078,13 @@ export const ZH_CN_MESSAGES = {
     "workspace.value0_unchanged_lines_hidden": "… 中间 {value0} 行未展开 …",
     "workspace.will_appear_here": "就会出现在这里。",
     "seed.welcome_note": `---
-title: 欢迎使用 Inkstone
-tags: [入门, Inkstone]
+title: 欢迎使用 QHC Note
+tags: [入门, QHC Note]
 aliases:
   - 使用指南
 ---
 
-# 欢迎使用 Inkstone
+# 欢迎使用 QHC Note
 
 > [!TIP] 先知道这五件事
 > - 这是你的私有 Markdown 笔记本；正文始终是普通文本。
@@ -1105,7 +1105,7 @@ aliases:
 - [ ] 点击笔记顶部标题，把它改成与正文不同的名称
 - [ ] 新建一个子文件夹，再把它拖到其他文件夹或同级位置
 - [ ] 按住 Alt 点击另一篇笔记，或选择**在侧边打开**，同时处理两篇笔记
-- [ ] 在 **设置 → 关于** 把 Inkstone 安装成可离线启动的 PWA
+- [ ] 在 **设置 → 关于** 把 QHC Note 安装成可离线启动的 PWA
 - [ ] 打开 **设置 → MCP** 查看私有 AI 接入方式和权限
 - [ ] 在 **设置 → 备份** 添加一个备份目标
 - [ ] 给一篇笔记创建带口令的分享
@@ -1161,7 +1161,7 @@ aliases:
 - 配置 Workers AI 后可以建立按账号隔离的语义索引，并把语义结果与关键词结果合并。索引可重建或清空，正文变化会在后台更新。
 
 > [!WARNING] 连接外部 AI 前先确认隐私政策
-> Inkstone 会隔离账号并校验权限，但已授权客户端实际读取到的内容，之后仍由该客户端处理。
+> QHC Note 会隔离账号并校验权限，但已授权客户端实际读取到的内容，之后仍由该客户端处理。
 
 ## Markdown 速查
 
@@ -1184,11 +1184,11 @@ aliases:
 ~~~~
 
 ~~~~md-example title="图片"
-![Inkstone 项目 Logo](/inkstone-logo.svg "Inkstone 项目 Logo")
+![QHC Note 项目 Logo](/inkstone-logo.svg "QHC Note 项目 Logo")
 ~~~~
 
 ~~~~md-example title="双链"
-[[我的第一篇笔记|打开或创建笔记]] · [[欢迎使用 Inkstone#Markdown 速查|跳到本节]]
+[[我的第一篇笔记|打开或创建笔记]] · [[欢迎使用 QHC Note#Markdown 速查|跳到本节]]
 ~~~~
 
 ~~~~md-example title="块 ID 与块引用"
@@ -1258,7 +1258,7 @@ flowchart LR
 
 ~~~~md-example title="带标题、行号和高亮的代码块"
 \`\`\`ts title="hello.ts" line-numbers {2}
-const name = 'Inkstone'
+const name = 'QHC Note'
 console.log(\`Hello, \${name}!\`)
 \`\`\`
 ~~~~
@@ -1276,6 +1276,6 @@ console.log(\`Hello, \${name}!\`)
 
 ## 最后
 
-按 \`Ctrl + ,\` 可以修改界面语言、主题、排版、编辑器、同步和备份。读到这里，你已经知道使用 Inkstone 所需的一切；可以保留这篇速查，也可以放心删除它，开始写自己的内容。 #入门
+按 \`Ctrl + ,\` 可以修改界面语言、主题、排版、编辑器、同步和备份。读到这里，你已经知道使用 QHC Note 所需的一切；可以保留这篇速查，也可以放心删除它，开始写自己的内容。 #入门
 `,
 } as const satisfies Record<MessageKey, string>;
